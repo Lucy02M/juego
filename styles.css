@@ -45,7 +45,10 @@
 
 @media only screen and (max-width: 400px) {
   
-  
+  html{
+    overflow: hidden !important;
+  }
+
   body{
     font-size: 12px !important;
     width: 93vw !important;
