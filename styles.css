@@ -1,3 +1,65 @@
+@media only screen and (max-width: 400px) {
+  
+
+  html{
+    overflow: hidden !important;
+  }
+  
+  body{
+    font-size: 12px !important;
+    width: 93vw !important;
+  }
+
+  .title{
+    font-size: 14px !important;
+    margin: 0;
+  } 
+
+  .winner{
+    font-size:17px;
+    text-align:center;
+  }
+
+  .winnerDiv{
+    font-size: 11px !important;
+    margin-top: 50px !important; 
+    margin-bottom:0 !important;
+  }
+
+  .reset{
+    margin:5px;
+    font-size: 13px !important;
+    width: 35vw !important;
+    height: 5vh !important;
+  }
+
+  .playerScore, .computerScore, .divider{
+    font-size:25px !important; 
+  }
+
+  .sections{
+    display: flex !important;
+    flex-direction: column !important;
+    height:50vh; 
+    margin-top:15px !important;
+  }
+
+  .playerChoice, .computerChoice{
+    font-size:14px;
+  }
+  
+  img{
+    height:70px !important;
+  }
+  .playerImgs,
+  .computerImgs {
+    height:70px !important;
+  }
+  .playerSection, .computerSection{
+    margin: 0px !important;
+  }
+}
+
 @media only screen and (max-width: 600px) {
 
   body{
@@ -43,66 +105,7 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
-  
-  html{
-    overflow: hidden !important;
-  }
 
-  body{
-    font-size: 12px !important;
-    width: 93vw !important;
-  }
-
-  .title{
-    font-size: 14px !important;
-    margin: 0;
-  } 
-
-  .winner{
-    font-size:17px;
-    text-align:center;
-  }
-
-  .winnerDiv{
-    font-size: 11px !important;
-    margin-top: 12vh; 
-    margin-bottom:0 !important;
-  }
-
-  .reset{
-    margin:10px;
-    font-size: 13px !important;
-    width: 35vw !important;
-    height: 5vh !important;
-  }
-
-  .playerScore, .computerScore, .divider{
-    font-size:25px !important; 
-  }
-
-  .sections{
-    display: flex !important;
-    flex-direction: column !important;
-    height:40vh; 
-    margin-top:15px !important;
-  }
-
-  .playerChoice, .computerChoice{
-    font-size:13px;
-  }
-  
-  img{
-    height:50px !important;
-  }
-  .playerImgs,
-  .computerImgs {
-    height:50px !important;
-  }
-  .playerSection, .computerSection{
-    margin: 3px !important;
-  }
-}
 
 html{
   font-family: 'Press Start 2P', cursive;
