@@ -1,3 +1,103 @@
+@media only screen and (max-height: 500px) {
+
+  body{
+    font-size: 10px !important;
+    width: 93vw !important;
+  }
+
+  #title{
+    width: 30vh !important;
+    padding: 10px !important;
+    text-align: center !important;
+    font-size:13px !important;
+    position:absolute !important;
+  }
+
+  .winner{
+    font-size:15px !important;
+    text-align: center !important;
+  }
+
+  .winnerDiv{
+    margin-top: 13vh !important; 
+  }
+
+  .reset{
+    margin:7px !important;
+    font-size: 13px !important;
+    width: 35vw !important;
+    height: 7vh !important;
+  }
+
+  .sections{
+    display: flex !important;
+    flex-direction: column !important;
+    height: 50vh;  
+    margin: 45vh !important;
+    position:absolute !important;
+  }
+
+  .playerSection, .computerSection{
+    margin-top: -5px !important;
+  }
+  
+  img{
+    height: 55px !important;
+  }
+  .playerImgs,
+  .computerImgs {
+    width:40vh !important;
+    height: 12vh; 
+    margin: -10px !important;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+
+  body{
+    font-size: 12px !important;
+    width: 93vw !important;
+    height: 98vw !important;
+    
+  }
+
+  #title{
+    width: 40vh !important;
+    padding: 15px 0 0 0 !important;
+    text-align: center !important;
+    font-size:17px !important;
+    position:absolute !important;
+  }
+
+  .winner{
+    font-size:17px;
+  }
+
+  .winnerDiv{
+    font-size: 11px !important;
+    margin-top: 12vh; 
+  }
+
+  .reset{
+    margin:10px;
+    font-size: 13px !important;
+    width: 35vw !important;
+    height: 5vh !important;
+  }
+
+  .sections{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  img{
+    width:90px !important;
+  }
+  .playerImgs,
+  .computerImgs {
+    width:40vh !important;
+  }
+}
+
 @media only screen and (max-width: 600px) {
 
   body{
